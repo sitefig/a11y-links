@@ -8,7 +8,6 @@ function compareAElementsWithParents() {
         'font-weight',
         'font-style',
         'letter-spacing',
-        'line-height',
         'text-decoration',
         'text-transform',
         'color',
@@ -20,14 +19,7 @@ function compareAElementsWithParents() {
         'border-right',
         'border-bottom',
         'border-left',
-        'margin-top',
-        'margin-right',
-        'margin-bottom',
-        'margin-left',
-        'padding-top',
-        'padding-right',
-        'padding-bottom',
-        'padding-left'
+        'outline'
     ];
 
     links.forEach((link, index) => {
